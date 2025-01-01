@@ -3,15 +3,15 @@
 @section('content')
     <div class="card">
         <div class="card-body">
-            <h1>Data Game</h1>
-            <h4><a href="/admin/viewtambahdatagame" class="btn btn-primary">Tambah Data Game</a></h4>
+            <h1>Data Konsol</h1>
+            <h4><a href="/admin/viewtambahdatagame" class="btn btn-primary">Tambah Data Konsol</a></h4>
             <table id="datatablesSimple">
                 <thead>
                     <tr>
                         <th>Gambar Konsol</th>
                         <th>Nama Konsol</th>
-                        <th>Pengembang</th>
                         <th>Tanggal Rilis</th>
+                        <th>Pengembang</th>
                         <th>Harga</th>
                         <th>Aksi</th>
                     </tr>
@@ -20,8 +20,8 @@
                     <tr>
                         <th>Gambar Konsol</th>
                         <th>Nama Konsol</th>
-                        <th>Pengembang</th>
                         <th>Tanggal Rilis</th>
+                        <th>Pengembang</th>
                         <th>Harga</th>
                         <th>Aksi</th>
                     </tr>
@@ -31,8 +31,8 @@
                     <tr>
                         <td><img src="{{ asset($data->gambar) }}" width="150px" height="150px"></td>
                         <td>{{ $data->nama_konsol }}</td>
-                        <td>{{ $data->pengembang }}</td>
                         <td>{{ $data->tgl_rilis }}</td>
+                        <td>{{ $data->pengembang }}</td>
                         <td><p>Rp. </p>{{ $data->harga }}</td>
                         <td>
                             <a href="/admin/viewubahdatakonsol/{{ $data->id_konsol }}" class="btn btn-primary"><img src="{{ asset('img/edit.png') }}" alt="" width="60px" height="60px"></a>

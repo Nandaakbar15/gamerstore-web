@@ -48,21 +48,14 @@ class KonsolController extends Controller
         
         return redirect("/admin/datakonsol")->with("success", "Data Konsol berhasil ditambahkan!");
     }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(Konsol $konsol)
-    {
-        //
-    }
-
     /**
      * Show the form for editing the specified resource.
      */
     public function edit(Konsol $konsol)
     {
-        //
+        return view("admin.datakonsol.ubahdatakonsol", [
+            "konsol" => $konsol
+        ]);
     }
 
     /**

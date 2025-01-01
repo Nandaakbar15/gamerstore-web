@@ -15,8 +15,8 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                     Data Game
                 </a>
-                <a class="nav-link collapsed" href="/admin/datakonsol" aria-expanded="false" aria-controls="collapsePages">
-                    <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                <a class="nav-link" href="/admin/datakonsol" aria-expanded="false" aria-controls="collapseLayouts">
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Data Konsol
                 </a>
             </div>

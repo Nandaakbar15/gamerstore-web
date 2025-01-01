@@ -28,11 +28,12 @@ Route::middleware(['web', 'auth', 'checkRole:admin'])->prefix("admin")->group(fu
     Route::get("/datakonsol", "App\Http\Controllers\KonsolController@index");
     Route::get("/viewtambahdatakonsol", "App\Http\Controllers\KonsolController@create");
     Route::post("/tambahkonsol", "App\Http\Controllers\KonsolController@store");
+    Route::get("/viewubahdatakonsol/{konsol}", "App\Http\Controllers\KonsolController@edit");
     Route::get("/datauser", "App\Http\Controllers\DataUserController@index");
     Route::delete("/datauser/{user}", "App\Http\Controllers\DataUserController@deleteUser");
 });
 
 // route pelanggan
-Route::middleware(['web','auth'])->prefix("pelanggan")->group(function() {
+Route::prefix('pelanggan')->group(function() {
     Route::get("/dashboardpelanggan", "App\Http\Controllers\PelangganController@index");
 });
