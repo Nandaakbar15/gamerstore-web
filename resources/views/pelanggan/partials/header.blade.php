@@ -5,7 +5,7 @@
         <div class="col-sm-4 col-lg-3 text-center text-sm-start">
           <div class="main-logo">
             <a href="index.html">
-              <img src="images/logo.png" alt="logo" class="img-fluid">
+              <img src="{{ asset("img/logo.png") }}" alt="logo" class="img-fluid">
             </a>
           </div>
         </div>
@@ -103,39 +103,16 @@
 
             <ul class="navbar-nav menu-list list-unstyled d-flex gap-md-3 mb-0">
               <li class="nav-item">
-                <a href="index.html" class="nav-link active">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" role="button" id="pages" data-bs-toggle="dropdown"
-                  aria-expanded="false">Pages</a>
-                <ul class="dropdown-menu" aria-labelledby="pages">
-                  <li><a href="index.html" class="dropdown-item">About Us</a></li>
-                  <li><a href="index.html" class="dropdown-item">Shop</a></li>
-                  <li><a href="index.html" class="dropdown-item">Single Product</a></li>
-                  <li><a href="index.html" class="dropdown-item">Cart</a></li>
-                  <li><a href="index.html" class="dropdown-item">Wishlist</a></li>
-                  <li><a href="index.html" class="dropdown-item">Checkout</a></li>
-                  <li><a href="index.html" class="dropdown-item">Blog</a></li>
-                  <li><a href="index.html" class="dropdown-item">Single Post</a></li>
-                  <li><a href="index.html" class="dropdown-item">Contact</a></li>
-                  <li><a href="index.html" class="dropdown-item">FAQs</a></li>
-                  <li><a href="index.html" class="dropdown-item">Account</a></li>
-                  <li><a href="index.html" class="dropdown-item">Thankyou</a></li>
-                  <li><a href="index.html" class="dropdown-item">Error 404</a></li>
-                  <li><a href="index.html" class="dropdown-item">Styles</a></li>
-                </ul>
+                <a href="/pelanggan/dashboardpelanggan" class="nav-link active">Home</a>
               </li>
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Shop</a>
+                <a href="/pelanggan/listgame" class="nav-link">Game</a>
               </li>
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Blog</a>
+                <a href="/pelanggan/listkonsol" class="nav-link">Konsol</a>
               </li>
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Others</a>
+                <a href="/pelanggan/listaksesoris" class="nav-link">Aksesoris</a>
               </li>
             </ul>
 

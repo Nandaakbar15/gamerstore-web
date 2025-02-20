@@ -19,6 +19,10 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Data Konsol
                 </a>
+                <a class="nav-link" href="/admin/dataaksesoris" aria-expanded="false" aria-controls="collapseLayouts">
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                    Data Aksesoris
+                </a>
             </div>
         </div>
         <div class="sb-sidenav-footer">

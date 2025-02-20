@@ -22,7 +22,7 @@
             New
           </div>
           <div class="card position-relative">
-            <a href="single-product.html"><img src="images/item1.jpg" class="img-fluid rounded-4" alt="image"></a>
+            <a href="single-product.html"><img src="{{ asset("img/item1.jpg") }}" class="img-fluid rounded-4" alt="image"></a>
             <div class="card-body p-0">
               <a href="single-product.html">
                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -59,7 +59,7 @@
             New
           </div> -->
           <div class="card position-relative">
-            <a href="single-product.html"><img src="images/item2.jpg" class="img-fluid rounded-4" alt="image"></a>
+            <a href="single-product.html"><img src="{{ asset("img/item2.jpg") }}" class="img-fluid rounded-4" alt="image"></a>
             <div class="card-body p-0">
               <a href="single-product.html">
                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -95,7 +95,7 @@
             -10%
           </div>
           <div class="card position-relative">
-            <a href="single-product.html"><img src="images/item3.jpg" class="img-fluid rounded-4" alt="image"></a>
+            <a href="single-product.html"><img src="{{ asset("img/item3.jpg") }}" class="img-fluid rounded-4" alt="image"></a>
             <div class="card-body p-0">
               <a href="single-product.html">
                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -132,7 +132,7 @@
             New
           </div> -->
           <div class="card position-relative">
-            <a href="single-product.html"><img src="images/item4.jpg" class="img-fluid rounded-4" alt="image"></a>
+            <a href="single-product.html"><img src="{{ asset("img/item4.jpg") }}" class="img-fluid rounded-4" alt="image"></a>
             <div class="card-body p-0">
               <a href="single-product.html">
                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -169,7 +169,7 @@
             New
           </div> -->
           <div class="card position-relative">
-            <a href="single-product.html"><img src="images/item7.jpg" class="img-fluid rounded-4" alt="image"></a>
+            <a href="single-product.html"><img src="{{ asset("img/item7.jpg") }}" class="img-fluid rounded-4" alt="image"></a>
             <div class="card-body p-0">
               <a href="single-product.html">
                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>
@@ -206,7 +206,7 @@
             New
           </div> -->
           <div class="card position-relative">
-            <a href="single-product.html"><img src="images/item8.jpg" class="img-fluid rounded-4" alt="image"></a>
+            <a href="single-product.html"><img src="{{ asset("img/item8.jpg") }}" class="img-fluid rounded-4" alt="image"></a>
             <div class="card-body p-0">
               <a href="single-product.html">
                 <h3 class="card-title pt-4 m-0">Grey hoodie</h3>

@@ -29,7 +29,10 @@ Route::middleware(['web', 'auth', 'checkRole:admin'])->prefix("admin")->group(fu
     Route::get("/viewtambahdatakonsol", "App\Http\Controllers\KonsolController@create");
     Route::post("/tambahkonsol", "App\Http\Controllers\KonsolController@store");
     Route::get("/viewubahdatakonsol/{konsol}", "App\Http\Controllers\KonsolController@edit");
+    Route::get('/dataaksesoris', 'App\Http\Controllers\AksesorisController@index');
     Route::get("/datauser", "App\Http\Controllers\DataUserController@index");
+    Route::get("/viewtambahdataaksesoris", "App\Http\Controllers\AksesorisController@create");
+    Route::post("/tambahaksesoris", "App\Http\Controllers\AksesorisController@store");
     Route::delete("/datauser/{user}", "App\Http\Controllers\DataUserController@deleteUser");
 });
 

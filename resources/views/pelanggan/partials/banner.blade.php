@@ -6,7 +6,7 @@
           <div class="swiper-slide py-5">
             <div class="row banner-content align-items-center">
               <div class="img-wrapper col-md-5">
-                <img src="images/banner-img.png" class="img-fluid">
+                <img src="{{ asset("img/banner-img.png") }}" class="img-fluid">
               </div>
               <div class="content-wrapper col-md-7 p-5 mb-5">
                 <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
@@ -25,7 +25,7 @@
           <div class="swiper-slide py-5">
             <div class="row banner-content align-items-center">
               <div class="img-wrapper col-md-5">
-                <img src="images//banner-img3.png" class="img-fluid">
+                <img src="{{ asset("img//banner-img3.png") }}" class="img-fluid">
               </div>
               <div class="content-wrapper col-md-7 p-5 mb-5">
                 <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
@@ -44,7 +44,7 @@
           <div class="swiper-slide py-5">
             <div class="row banner-content align-items-center">
               <div class="img-wrapper col-md-5">
-                <img src="images/banner-img4.png" class="img-fluid">
+                <img src="{{ asset("img/banner-img4.png") }}" class="img-fluid">
               </div>
               <div class="content-wrapper col-md-7 p-5 mb-5">
                 <div class="secondary-font text-primary text-uppercase mb-4">Save 10 - 20 % off</div>
